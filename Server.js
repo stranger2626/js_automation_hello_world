@@ -21,7 +21,7 @@ http.createServer(function(req, res){
       'content="text/html; charset=UTF-8" />'+
       '</head>'+
       '<body>'+
-      '<a href="file.bin" class="button" download>Download binary file</a>' +
+      '<a href="file.bin" download>Download binary file</a>' +
       '</body>'+
       '</html>';
       res.writeHead(200, {"Content-Type": "text/html"});
